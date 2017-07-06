@@ -137,17 +137,6 @@ class Xml_parser(object):
                     inside_person = True
                     key_prefix = result.group(1)
 
-                    
-
-                #if i % 10 == 0:
-                #    print(i, "Running for:", round((time.time() - start) / 60, 4), "[min]", "time for the last loop:",
-                #          round(time.time() - tmp, 4))
-                          #end="\r")
-                #    tmp = time.time()
-
-                #if i == 2000000:
-                #    self.__merge_data()
-                #    self.__save_everything(data_folder)
 
         self.__save_everything(data_folder)
         self.__merge_data()
